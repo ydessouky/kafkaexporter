@@ -1,4 +1,4 @@
-module github.com/ydessouky/enms-OTel-collector/exporter/kafkaexporter
+module github.com/ydessouky/kafkaexporter
 
 go 1.18
 
@@ -75,6 +75,6 @@ require (
 
 replace github.com/ydessouky/enms-OTel-collector/internal/coreinternal => ../../internal/coreinternal
 
-replace github.com/ydessouky/enms-OTel-collector/pkg/translator/jaeger => ../../pkg/translator/jaeger
+replace github.com/ydessouky/jaeger => ./jaeger
 
 retract v0.65.0
