@@ -75,6 +75,4 @@ require (
 
 replace github.com/ydessouky/enms-OTel-collector/internal/coreinternal => ../../internal/coreinternal
 
-replace github.com/ydessouky/jaeger => ./jaeger
-
 retract v0.65.0
